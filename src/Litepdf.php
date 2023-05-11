@@ -11,7 +11,7 @@ use GuzzleHttp\Exception\ClientException;
 
 class Litepdf {
 
-    private string $baseUrl = 'https://techsz.aoscdn.com/api';
+    private string $baseUrl = 'https://techhk.aoscdn.com/api';
     private string $conversionEndpoint = '/tasks/document/conversion';
     private ?string $apiKey = null;
     private array $headers = [
