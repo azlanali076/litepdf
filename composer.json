@@ -1,0 +1,31 @@
+{
+    "name": "azlanali076/litepdf",
+    "description": "LitePDF Laravel Wrapper",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Azlanali076\\Litepdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "azlanali076",
+            "email": "azlanali076@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0|^8.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "LitepdfServiceProvider"
+            ],
+            "aliases": {
+                "Litepdf": "Litepdf"
+            }
+        }
+    }
+}
