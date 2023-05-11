@@ -21,10 +21,10 @@
     "extra": {
         "laravel": {
             "providers": [
-              "LitepdfServiceProvider"
+              "Azlanali076\\Litepdf\\Providers\\LitepdfServiceProvider"
             ],
             "aliases": {
-                "Litepdf": "Litepdf"
+                "Litepdf": "Azlanali076\\Litepdf\\Facades\\Litepdf"
             }
         }
     }
