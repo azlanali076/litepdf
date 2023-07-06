@@ -88,6 +88,9 @@ class Litepdf {
             $client = new Client();
             $options = [
                 'headers' => $this->headers,
+                'verify' => false,
+                'timeout' => 600,
+                'connection_timeout' => 600
             ];
             if($body and count($body) > 0){
                 $options['body'] = json_encode($body);
